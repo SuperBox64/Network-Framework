@@ -30,6 +30,7 @@ func machintoshI() {
         // The string could not be encoded as UTF-8 data, so handle the error here
     }
 }
+```
 
 ```swift
 import Network
