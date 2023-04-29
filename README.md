@@ -100,7 +100,7 @@ func appOne() {
 }
 ```
 
-```
+```swift
 import Network
 
 func appII() {
