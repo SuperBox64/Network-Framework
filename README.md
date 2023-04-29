@@ -75,9 +75,7 @@ func machintoshII() {
 import Network
 
 //Same implementation over internal network between two apps
-func appOne() {
-    // Connect to the Bonjour service on the other Mac
-    
+func appOne() {    
     let tcpOption = NWProtocolTCP.Options()
     let params = NWParameters(tls: nil, tcp: tcpOption)
     let connection = NWConnection(host: "127.0.0.1", port: 53758, using: params)
