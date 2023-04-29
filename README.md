@@ -72,6 +72,8 @@ func machintoshII() {
 
 
 ```swift
+import Network
+
 //Same implementation over internal network between two apps
 func appOne() {
     // Connect to the Bonjour service on the other Mac
@@ -99,6 +101,8 @@ func appOne() {
 ```
 
 ```
+import Network
+
 func appII() {
     do {
         let tcpOption = NWProtocolTCP.Options()
