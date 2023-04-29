@@ -103,7 +103,7 @@ func appOne() {
 ```swift
 import Network
 
-func appII() {
+func appTwo() {
     do {
         let tcpOption = NWProtocolTCP.Options()
         let params = NWParameters(tls: nil, tcp: tcpOption)
